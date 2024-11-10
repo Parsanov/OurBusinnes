@@ -1,0 +1,50 @@
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+
+
+    margin-top: 50px;
+}
+.the-crew{
+    font-size: 34px;
+    font-weight: 600;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.card-crew{
+    flex: 0 1 350px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 10px;
+    padding: 25px;
+    text-align: center;
+
+    cursor: pointer;
+
+    transition: 0.2s ease-in-out;
+
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-crew:hover{
+    transform: translateY(-5px) ;
+}
+
+
+
+.card-photo img{
+    width: 100px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+
+.title-card h1{
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.description{
+    margin-top: 20px;
+}
