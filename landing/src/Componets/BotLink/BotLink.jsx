@@ -15,7 +15,7 @@ const BotLink = () => {
                         <div className="right-info">
                             <div className="text-info">
                                 <h1>
-                                    Бот-ґарант для безпечного продажу каналів у Telegram з глобальним масштабуванням
+                                    Гарант Бот для безпечного продажу каналів у Telegram з глобальним масштабуванням
                                 </h1>
 
                                 <div className="button-action">

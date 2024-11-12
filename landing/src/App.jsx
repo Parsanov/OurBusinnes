@@ -1,6 +1,7 @@
 import BotLink from "./Componets/BotLink/BotLink";
 import Competitors from "./Componets/Competitors/Competitors";
 import Crew from "./Componets/Crew/Crew";
+import Footer from "./Componets/Footer/Footer";
 import ForWho from "./Componets/ForWho/ForWho";
 import NavBar from "./Componets/NavBar/NavBar"
 import Technology from "./Componets/Tehnology/Technology";
@@ -19,6 +20,7 @@ function App() {
             <Technology/>
             <ForWho/>
             <Competitors/>
+            <Footer/>
           </>
         } />
       </Routes>

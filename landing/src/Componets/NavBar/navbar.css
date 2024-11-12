@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
 
-    margin-top: 25px;
+    margin-top: 15px;
 }
 
 .main-navbar{
@@ -13,23 +13,41 @@
     display: flex;
 }
 
+.list-navbar li::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 4px;
+    border-radius: 15px;
+    background-color: #2AABEE;
+    transition: 0.3s ease;
+}
+
+.list-navbar li:hover::after {
+    width: 100%;
+}
+
+.list-navbar li {
+    position: relative;
+    padding: 10px 0;
+    overflow: hidden;
+}
+
+
 
 .list-navbar a{
     color: black;
     text-decoration: none;
-    padding: 15px;
+    padding: 0 15px;
 
     font-weight: 600;
 }
 
-.list-navbar a:hover{
-    background-color: #229ED9;
-    color: white;
-
-    border-radius: 5px;
+.main-logo{
+    margin-top: 12px;
 }
-
-
 .logo{
     font-weight: 800;
     font-size: 24px;
