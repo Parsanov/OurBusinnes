@@ -18,7 +18,6 @@
 }
 
 
-
 .right-info h1{
 
     width: 600px;
@@ -48,10 +47,9 @@
 }
 
 
-.button-action button{
+.button-action a{
     background-color: #fff;
-    width: 170px;
-    height: 50px;
+    padding: 15px 25px;
     color: #229ED9;
 
     font-weight: 600;
@@ -61,7 +59,7 @@
 }
 
 
-.button-action button:hover{
+.button-action a:hover{
     background-color: #229ED9;
     color: white;
     transition: 0.3s ease;

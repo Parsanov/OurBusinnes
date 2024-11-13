@@ -19,7 +19,7 @@ const BotLink = () => {
                                 </h1>
 
                                 <div className="button-action">
-                                    <button>Спробуй!</button>
+                                    <button><a   href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">Спробуй!</a></button>
                                 </div>
                             </div>
                         </div>
