@@ -1,3 +1,4 @@
+import Hero from "../hero-section/hero";
 import "./botlink.css"
 import Iphone  from "./Iphone.png"
 
@@ -9,7 +10,7 @@ const BotLink = () => {
                 <div className="main-container">
                     <div className="main-info">
                         <div className="left-image">
-                                <img src={Iphone}/>
+                            <Hero/>
                         </div>
 
                         <div className="right-info">

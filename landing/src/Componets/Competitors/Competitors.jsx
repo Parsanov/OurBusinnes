@@ -37,7 +37,7 @@ const Competitors = () => {
                   
                     
                   <div class="image-competitors">
-                      <img src={Auto} alt="Time comparison" />
+                      <img className="auto-img" src={Auto} alt="Time comparison" />
                   </div>
 
                   <div class="description-competitors">

@@ -6,7 +6,7 @@ const Technology = () => {
             <div className="tech-conteiner">
                 <h2 className="tech-title">Основні технології</h2>
                 
-                {/* Перший рядок з 2 колонками */}
+              
                 <div className="tech-grid-row1">
                     <div className="tech-card">
                         <h3><span className="icon">F</span>Frontend</h3>
@@ -19,7 +19,7 @@ const Technology = () => {
                     </div>
                 </div>
                 
-                {/* Другий рядок з 3 колонками */}
+            
                 <div className="tech-grid-row2">
                     <div className="tech-card">
                         <h3><span className="icon">D</span>Database</h3>

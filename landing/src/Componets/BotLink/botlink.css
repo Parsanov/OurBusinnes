@@ -66,11 +66,12 @@
 }
 
 .left-image{
+
     position: relative;
 
-    top: 50px;
-
-    left: 150px;
+    top: -5px;
+    left: 60px;
+   float: left;
 }
 
 
